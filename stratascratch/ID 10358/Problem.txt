@@ -1,0 +1,16 @@
+IBM is working on a new feature to analyze user purchasing behavior for all Fridays in the first quarter of the year. For each Friday separately, calculate the average amount users have spent per order. The output should contain the week number of that Friday and average amount spent.
+
+DataFrame: user_purchases
+user_id:int
+date:datetime
+amount_spent:float
+day_name:varchar'
+
+All required columns and the first 5 rows of the solution are shown
+
+week_number	mean_amount
+1	0
+2	742.5
+3	0
+4	424
+5	590
