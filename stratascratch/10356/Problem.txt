@@ -1,0 +1,23 @@
+Finding Doctors
+
+Find doctors with the last name of 'Johnson' in the employee list. The output should contain both their first and last names.
+
+DataFrame: employee_list
+
+employee_list
+
+first_name:varchar
+last_name:varchar
+profession:varchar
+employee_id:int
+birthday:datetime
+birth_month:int
+
+All required columns and the first 5 rows of the solution are shown
+
+first_name	last_name
+Sarah	Johnson
+Emma	Johnson
+Nancy	Johnson
+Jack	Johnson
+Hannah	Johnson
