@@ -1,0 +1,23 @@
+Employees With Same Birth Month
+
+Identify the number of employees within each department that share the same birth month. Your output should list the department, birth month, and the number of employees from that department who were born in that month. If a month has no employees born in it within a specific department, report this month as having 0 employees. The "profession" column stores the department names of each employee.
+
+DataFrame: employee_list
+
+employee_list
+
+first_name:varchar
+last_name:varchar
+profession:varchar
+employee_id:int
+birthday:datetime
+birth_month:int
+
+All required columns and the first 5 rows of the solution are shown
+
+department	Month_1	Month_2	Month_3	Month_4	Month_5	Month_6	Month_7	Month_8	Month_9	Month_10 Month_11 Month_12
+Accountant	0	    0	    1	    0	    0	    1	    1	    1	    1	    0	        0	       0
+Doctor	    3	    0	    3	    1	    2	    0	    3	    4	    1	    1	        3	       0
+Engineer	0	    2	    1	    2	    4	    3	    0	    3	    1	    2	        0	       1
+Lawyer	    2	    0	    0	    1	    0	    0	    0	    0	    1	    0	        0	       1
+Manager	    2	    0	    3	    0	    2	    0	    0	    2	    3	    1	        2	       0
