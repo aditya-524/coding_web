@@ -1,0 +1,21 @@
+Variable vs Fixed Rates
+
+Write a query that returns binary description of rate type per loan_id. The results should have one row per loan_id and two columns: for fixed and variable type.
+
+DataFrame: submissionsExpected Output Type: pandas.DataFrame
+
+submissions
+id:int
+balance:float
+interest_rate:float
+rate_type:varchar
+loan_id:int
+
+All required columns and the first 5 rows of the solution are shown
+
+loan_id	fixed	variable
+2	    0	    1
+4	    1	    0
+5	    0	    1
+7	    0	    1
+9	    1	    0
