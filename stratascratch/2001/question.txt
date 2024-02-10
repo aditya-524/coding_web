@@ -1,0 +1,22 @@
+Share of Loan Balance
+
+Write a query that returns the rate_type, loan_id, loan balance , and a column that shows with what percentage the loan's balance contributes to the total balance among the loans of the same rate type.
+
+DataFrame: submissionsExpected Output Type: pandas.DataFrame
+
+submissions
+id:int
+balance:float
+interest_rate:float
+rate_type:varchar
+loan_id:int
+
+Expected Output
+All required columns and the first 5 rows of the solution are shown
+
+loan_id	rate_type	balance	balance_share
+2	    variable	5229.12	11.131
+7	    variable	21149	45.019
+5	    variable	14379	30.608
+11	    variable	6221.12	13.243
+4	    fixed	    12727.52	45.908
