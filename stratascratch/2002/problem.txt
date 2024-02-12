@@ -1,0 +1,18 @@
+Submission Types
+
+Write a query that returns the user ID of all users that have created at least one ‘Refinance’ submission and at least one ‘InSchool’ submission.
+
+DataFrame: loans
+
+loans
+id:int
+user_id:int
+created_at:datetime
+status:varchar
+type:varchar
+
+Expected Output
+All required columns and the first 5 rows of the solution are shown
+
+0
+108
