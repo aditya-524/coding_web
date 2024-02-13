@@ -1,0 +1,19 @@
+Users Activity Per Month Day
+
+Return a distribution of users activity per day of the month. By distribution we mean the number of posts per day of the month.
+
+DataFrame: facebook_postsExpected Output Type: pandas.DataFrame
+
+facebook_posts
+post_id:int
+poster:int
+post_text:varchar
+post_keywords:varchar
+post_date:datetime
+
+Expected Output
+All required columns and the first 5 rows of the solution are shown
+
+post_date	user_activity
+1	        3
+2	        3
