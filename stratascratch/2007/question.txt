@@ -1,0 +1,17 @@
+Rank Variance Per Country
+
+Which countries have risen in the rankings based on the number of comments between Dec 2019 vs Jan 2020? Hint: Avoid gaps between ranks when ranking countries.
+
+DataFrames: fb_comments_count, fb_active_usersExpected Output Type: pandas.DataFrame
+
+b_comments_count
+user_id:int
+created_at:datetime
+number_of_comments:int
+
+Expected Output
+All required columns and the first 5 rows of the solution are shown
+
+0
+Mali
+Denmark
