@@ -1,0 +1,18 @@
+Top Streamers
+
+List the top 10 users who accumulated the most sessions where they had more streaming sessions than viewing. Return the user_id, number of streaming sessions, and number of viewing sessions.
+
+DataFrame: twitch_sessionsExpected Output Type: pandas.DataFrame
+
+twitch_sessions
+user_id:int
+session_start:datetime
+session_end:datetime
+session_id:int
+session_type:varchar
+
+Expected Output
+All required columns and the first 5 rows of the solution are shown
+
+user_id	streamer	viewer
+0	    2	        1

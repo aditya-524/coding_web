@@ -1,0 +1,21 @@
+Users With Two Statuses
+
+Find users who are both a viewer and streamer.
+
+DataFrame: twitch_sessionsExpected Output Type: pandas.DataFrame
+
+twitch_sessions
+user_id:int
+session_start:datetime
+session_end:datetime
+session_id:int
+session_type:varchar
+
+Expected Output
+All required columns and the first 5 rows of the solution are shown
+
+index	user_id
+0	    0
+1	    1
+2	    2
+3	    3
