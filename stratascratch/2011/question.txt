@@ -1,0 +1,19 @@
+Session Type Duration
+
+Calculate the average session duration for each session type?
+
+DataFrame: twitch_sessionsExpected Output Type: pandas.DataFrame
+
+twitch_sessions
+user_id:int
+session_start:datetime
+session_end:datetime
+session_id:int
+session_type:varchar
+
+Expected Output
+All required columns and the first 5 rows of the solution are shown
+
+session_type	duration
+streamer	    411
+viewer	        986
