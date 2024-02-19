@@ -1,0 +1,21 @@
+Customer Average Orders
+
+How many customers placed an order and what is the average order amount?
+
+DataFrame: postmates_ordersExpected Output Type: pandas.DataFrame
+
+postmates_orders
+id:int
+customer_id:int
+courier_id:int
+seller_id:int
+order_timestamp_utc:datetime
+amount:float
+city_id:int
+
+Expected Output
+All required columns and the first 5 rows of the solution are shown
+
+index	    0
+customer_id	5
+amount	    139.225

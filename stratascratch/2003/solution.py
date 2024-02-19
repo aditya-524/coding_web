@@ -5,8 +5,6 @@ import pandas as pd
 loans.head()
 # submissions.head()
 
-loans["created_at"] = pd.to_datetime(loans["created_at"])
-
 result = loans.loc[
     loans[loans["type"] == "Refinance"]
     .groupby("user_id")["created_at"]

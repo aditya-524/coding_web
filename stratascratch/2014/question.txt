@@ -1,0 +1,21 @@
+Hour With The Highest Order Volume
+
+Which hour has the highest average order volume per day? Your output should have the hour which satisfies that condition, and average order volume.
+
+DataFrame: postmates_ordersExpected Output Type: pandas.DataFrame
+
+postmates_orders
+id:int
+customer_id:int
+courier_id:int
+seller_id:int
+order_timestamp_utc:datetime
+amount:float
+city_id:int
+
+Expected Output
+All required columns and the first 5 rows of the solution are shown
+
+hour	n_orders
+3	    2
+8	    2

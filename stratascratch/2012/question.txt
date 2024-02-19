@@ -1,0 +1,19 @@
+Viewers Turned Streamers
+
+From users who had their first session as a viewer, how many streamer sessions have they had? Return the user id and number of sessions in descending order. In case there are users with the same number of sessions, order them by ascending user id.
+
+DataFrame: twitch_sessionsExpected Output Type: pandas.DataFrame
+
+twitch_sessions
+user_id:int
+session_start:datetime
+session_end:datetime
+session_id:int
+session_type:varchar
+
+Expected Output
+All required columns and the first 5 rows of the solution are shown
+
+user_id	n_sessions
+1	    1
+3	    1
