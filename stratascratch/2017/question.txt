@@ -1,0 +1,15 @@
+Paid Users In April 2020
+
+How many paid users had any calls in Apr 2020?
+
+DataFrames: rc_calls, rc_usersExpected Output Type: pandas.DataFrame
+
+rc_calls
+user_id:int
+date:datetime
+call_id:int
+
+Expected Output
+All required columns and the first 5 rows of the solution are shown
+
+5

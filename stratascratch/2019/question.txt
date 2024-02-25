@@ -1,0 +1,20 @@
+Top 2 Users With Most Calls
+
+Return the top 2 users in each company that called the most. Output the company_id, user_id, and the user's rank. If there are multiple users in the same rank, keep all of them.
+
+DataFrames: rc_calls, rc_usersExpected Output Type: pandas.DataFrame
+
+rc_calls
+user_id:int
+date:datetime
+call_id:int
+
+Expected Output
+All required columns and the first 5 rows of the solution are shown
+
+company_id	user_id	rank
+1	        1525	2
+1	        1854	2
+1	        1859	1
+2	        1162	1
+2	        1181	1

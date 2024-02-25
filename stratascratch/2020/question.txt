@@ -1,0 +1,22 @@
+Call Declines
+
+Which company had the biggest month call decline from March to April 2020? Return the company_id and calls difference for the company with the highest decline.
+
+DataFrames: rc_calls, rc_usersExpected Output Type: pandas.DataFrame
+
+rc_calls
+user_id:int
+date:datetime
+call_id:int
+
+rc_users
+user_id:int
+status:varchar
+company_id:int
+
+Expected Output
+All required columns and the first 5 rows of the solution are shown
+
+company_id	calls_var
+3	        -2
+
